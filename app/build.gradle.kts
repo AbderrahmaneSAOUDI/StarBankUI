@@ -66,4 +66,8 @@ dependencies {
 	androidTestImplementation(libs.androidx.ui.test.junit4)
 	debugImplementation(libs.androidx.ui.tooling)
 	debugImplementation(libs.androidx.ui.test.manifest)
+
+	// Accompanist + Material Icons Extended
+	implementation(libs.accompanist.systemuicontroller)
+	implementation(libs.androidx.material.icons.extended)
 }
